@@ -16,33 +16,33 @@ layers:
   - D
   - F
   - G
-  - '-'
+  - LEFT CONTROL
   - H
   - J
   - K
   - L
-  - {t: ;, h: MOUSE_W}
+  - '&mkp MB4'
   - Z
   - X
   - C
   - V
   - B
-  - ':'
-  - ;
+  - {t: TAB, h: LEFT CONTROL}
+  - DEL
   - N
   - M
-  - ','
-  - .
-  - {t: /, h: BLE_W}
-  - RCTRL
+  - '&mkp MB1'
+  - {t: ., h: SCRL_W}
+  - '&mkp MB2'
+  - {t: '`', h: BLE_W}
   - LEFT WIN
   - LEFT ALT
-  - {t: '`', h: NUM_W}
-  - {t: SPACE, h: MOUSE_W}
-  - {t: '-', h: SCRL_W}
-  - ENTER
+  - {t: SPACE, h: BLE_W}
+  - {t: SPACE, h: LEFT SHIFT}
+  - {t: '-', h: NUM_W}
   - BACKSPACE
-  - RIGHT SHIFT
+  - {t: ENTER, h: FN_W}
+  - '&mkp MB5'
   MAC:
   - Q
   - W
@@ -94,20 +94,20 @@ layers:
   - $
   - '='
   - '7'
-  - '8'
-  - '9'
-  - '*'
+  - Sft+8
+  - (
+  - {t: ▽, type: trans}
   - TAB
   - '%'
   - ^
   - '&'
   - '*'
   - '%'
-  - '0'
-  - '4'
-  - '5'
-  - '6'
-  - '-'
+  - '?'
+  - '!'
+  - ']'
+  - \
+  - ;
   - '|'
   - (
   - )
@@ -117,18 +117,18 @@ layers:
   - +
   - .
   - '1'
-  - '2'
-  - '3'
-  - /
+  - ','
+  - .
+  - '-'
   - LCTRL
   - LEFT GUI
   - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - ENTER
-  - BACKSPACE
-  - RIGHT SHIFT
+  - /
   NUM_M:
   - ESCAPE
   - '!'
@@ -289,15 +289,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - {t: ▽, type: trans}
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -345,48 +345,48 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FN_W:
+  - TAB
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - ESCAPE
+  - E
+  - PSCRN
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - E
+  - PAGE UP
+  - F2
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - TAB
+  - LEFT WIN
+  - PAGE DOWN
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - Ctl+C
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - .
+  - .
+  - '0'
+  - SPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - Ctl+Z
   FN_M:
   - A
   - {t: ▽, type: trans}
@@ -431,40 +431,40 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BLE_W:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: ▽, type: trans}
   - '&BT0'
   - '&BT1'
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - F6
-  - F7
-  - F8
-  - F9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ESCAPE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
   - '&studio_unlock'
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BT CLR, type: held}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
