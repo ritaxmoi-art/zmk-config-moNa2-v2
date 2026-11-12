@@ -39,7 +39,7 @@ layers:
   - LEFT ALT
   - {t: SPACE, h: BLE_W}
   - {t: SPACE, h: LEFT SHIFT}
-  - {t: '-', h: NUM_W}
+  - {t: SPACE, h: NUM_W}
   - BACKSPACE
   - {t: ENTER, h: FN_W}
   - '&mkp MB5'
@@ -115,8 +115,8 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - +
-  - .
-  - '1'
+  - '['
+  - '['
   - ','
   - .
   - '-'
